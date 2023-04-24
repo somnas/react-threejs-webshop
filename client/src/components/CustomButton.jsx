@@ -21,6 +21,7 @@ export default function CustomButton({ type, title, customeStyles, handleClick }
         <button
             className={`px-2 py-1.5 flex-1 rounded-md ${customeStyles}`}
             style={generateStyle(type)}
+            onClick={handleClick}
         >
             {title}
         </button>
