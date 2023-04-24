@@ -34,6 +34,12 @@ export default function Home() {
                                 LET'S <br className='xl:block hidden' /> DO IT.
                             </h1>
                         </motion.div>
+                        <motion.div>
+                            <p>
+                                Create your unique and exclusive shirt with our brand-new 3D customization tool. 
+                                <strong> Unleash your imagination</strong>{' '}and define your own style.
+                            </p>
+                        </motion.div>
                     </motion.div>
                 </motion.div>
             )}
